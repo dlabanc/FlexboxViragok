@@ -1,9 +1,13 @@
 ezt ide fent írom
+<<<<<<< HEAD
 2. sor 
 ezt lent írom
-3. sor
-ez nagyon fontos
-4. sor
-ez nem olyan fontos
+
 5. sor
 valami
+=======
+2. sor
+ezt idefent írom fontos
+
+fent nem fontos
+>>>>>>> 128d717afc21e809d57f49da30e863bafcd05ce5
