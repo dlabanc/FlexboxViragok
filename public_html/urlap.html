@@ -1,0 +1,56 @@
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="stilus.css" rel="stylesheet" type="text/css"/>
+    </head>
+    <body>
+        <main>
+            <nav>
+                <ul>
+                    <li><a href="#">Cég neve</a></li>
+                    <li><a href="index.html">Kezdőlap</a></li>
+                    <li><a href="#">Galéria</a></li>
+                    <li><a href="#">Rólunk</a></li>
+                    <li><a href="urlap.html">Kapcsolat</a></li>
+
+                </ul>
+            </nav>
+            <article>
+                <form action="feldolgoz.php" method="post" oninput="kics.value=parseInt(csuszka.value)">
+                    <fieldset>
+                        <legend>Személyes adatok</legend>
+                        <label for="nev">Név: *</label>
+                        <input type="text" name="nev" id="nev" required placeholder="Írja ide a nevét!">              
+                        <br>
+                        <label for="pl">Probléma leírása: *</label>
+                        <input type="text" name="pl" id="pl" placeholder="Probléma..">
+                        <br>
+                        <label for="kor">Kor</label>
+                        <input type="number" name="kor" id="kor">
+                        <br>
+                        <label for="mail">E-mail:</label>
+                        <input type="email" name="mail" id="mail">
+                        <br>
+                        <label>Üzenet:</label>
+                        <textarea cols=40 rows=4></textarea>
+                    </fieldset>
+                    <br>
+                    <label for="datum">Időpont:</label>
+                    <input type="date" name="datum" id="datum">
+                    <input type="time" name="ido" id="ido" value="08:00">
+                    <br>
+                    <br>
+                    <label for="csuszka">Sürgősség: 1 </label>
+                    <input type="range" name="csuszka" id="csuszka" value="3" min="1" max="5">
+                    <label for="csuszka"> 5 -> </label>
+                    <output name="kics" id="kics">3</output>
+                    <br>
+                </form>
+            </article>
+        </main>
+
+
+    </body>
+</html>
